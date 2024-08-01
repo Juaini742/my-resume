@@ -37,7 +37,7 @@ function SocialMedia() {
   ];
   return (
     <div className="flex flex-col gap-5 mt-5">
-      <h2 className="text-sm text-muted-foreground">Socials</h2>
+      <h2 className="text-sm">Socials</h2>
       {items.map((item, index) => (
         <BoxReveal key={index} boxColor={"#16a34a"} duration={0.5}>
           <div className="flex gap-3 items-center">

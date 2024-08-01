@@ -8,7 +8,7 @@ import BoxReveal from "@/components/magicui/box-reveal";
 function Language() {
   return (
     <div className="flex flex-col gap-5 mt-5">
-      <h2 className="text-sm text-muted-foreground">Languages</h2>
+      <h2 className="text-sm">Languages</h2>
       <BoxReveal boxColor={"#16a34a"} duration={0.5}>
         <div className="flex items-center gap-3">
           <Image

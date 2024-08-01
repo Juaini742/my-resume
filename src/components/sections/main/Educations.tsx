@@ -1,14 +1,14 @@
+import CardContainer from "@/components/CardContainer";
 import Meteors from "@/components/magicui/meteors";
 import Title from "@/components/Title";
-import { educations, projects } from "@/contents";
+import { educations,  } from "@/contents";
 import Image from "next/image";
-import React from "react";
 
 function Educations() {
   return (
     <section className="mt-3 pr-4">
       <Title title="Educations" />
-      <div className="mt-2 ml-8 flex flex-col gap-2">
+      <CardContainer className="flex flex-col gap-2">
         {educations.map((item, index) => (
           <div
             key={index}
@@ -34,7 +34,7 @@ function Educations() {
             </p>
           </div>
         ))}
-      </div>
+      </CardContainer>
     </section>
   );
 }
