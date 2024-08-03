@@ -3,6 +3,7 @@ import Image from "next/image";
 import { Separator } from "@/components/ui/separator";
 import ShinyButton from "@/components/magicui/shiny-button";
 import SparklesText from "@/components/magicui/sparkles-text";
+import Link from "next/link";
 
 function Profile() {
   return (
@@ -14,7 +15,13 @@ function Profile() {
       <h3 className="font-extrabold text-[19px] text-transparent bg-gradient-to-b from-white to-black bg-clip-text">
         Full-Stack Developer
       </h3>
-      <ShinyButton text="Download CV" className="my-2" />
+      <a
+        href="https://console.cloudinary.com/console/c-fbf05cbe64e27f1326077bb89b6f23/media_library/asset/b12bbf9d14c8a2b0d9b3cf69007d9084/manage"
+        target="_blank"
+        download
+      >
+        <ShinyButton text="Download CV" className="my-2" />
+      </a>
       <Separator orientation="horizontal" className="w-full mt-3" />
     </div>
   );

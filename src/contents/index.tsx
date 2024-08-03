@@ -34,15 +34,43 @@ export const email = "juaini742@gmail.com";
 export const portfolio = "https://portfolio-juaini.vercel.app/";
 export const phoneNumber = "+6285751633160";
 export const address = "South Borneo, Indonesia";
-export const googleLink = "/mailto:juaini742@gmail.com";
+export const googleLink = "mailto:juaini742@gmail.com";
 export const fbLink =
   "https://www.facebook.com/juaini.juaini.108?mibextid=ZbWKwL";
-export const linkedInLink =
-  "https://www.instagram.com/juainii_/?igsh=cDBnczkyZHBxcnh3";
+export const linkedInLink = "https://www.linkedin.com/in/juaini-i/";
 export const waLink = "https://wa.me/6285751633160/";
 export const githubLink = "https://github.com/Juaini742?tab=repositories";
 export const upwork = "";
 export const cv = "../pdf/Juaini-Curriculum Vitae.pdf";
+
+export const experiences = [
+  {
+    title: "Front-End Developer",
+    company: "Personal",
+    country: "Indonesia",
+    date: "2023 - current",
+    description: [
+      "HTML, CSS, JavaScript/TypeScript: Developed and maintained efficient front-end code, enhancing application performance and accessibility.",
+      "Frameworks: Proficient in ReactJS, NextJs, VueJs, Angular, and NuxtJs, successfully implementing advanced features for optimal user experience.",
+      "Styling: Utilized Tailwind, Sass, Material UI, and shadcn for responsive and consistent design, ensuring high visual quality.",
+      "Version Control: Used Git for effective version control and CloudPanel for secure and rapid deployment.",
+      "Authentication: Implemented secure front-end authentication systems, improving user data security and integrity.",
+    ],
+  },
+  {
+    title: "Back-End Developer",
+    company: "Personal",
+    country: "Indonesia",
+    date: "2023 - current",
+    description: [
+      "NodeJS, ExpressJS: Developed scalable server-side applications, ensuring high performance and system reliability.",
+      "Database Management: Efficiently managed MySQL and MongoDB, optimizing database performance and consistency.",
+      "API Development: Designed robust RESTful APIs, ensuring seamless integration between front-end and back-end, as well as external services.",
+      "Security: Implemented strong authentication and authorization, protecting applications from threats and ensuring data security.",
+      "Version Control: Used Git for efficient version control and CloudPanel for smooth and rapid automated deployment.",
+    ],
+  },
+];
 
 export const projects = [
   {

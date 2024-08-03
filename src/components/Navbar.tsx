@@ -78,14 +78,18 @@ export function Navbar() {
           </DockIcon>
           <Separator orientation="vertical" className="h-full" />
           <DockIcon>
-            <Link href="" download>
+            <a
+              href="https://console.cloudinary.com/console/c-fbf05cbe64e27f1326077bb89b6f23/media_library/asset/b12bbf9d14c8a2b0d9b3cf69007d9084/manage"
+              target="_blank"
+              download
+            >
               <Image
                 src={downloadImage}
                 alt="Google"
                 className="w-6 md:w-7"
                 title="Gmail"
               />
-            </Link>
+            </a>
           </DockIcon>
           <Separator orientation="vertical" className="h-full" />
           <DockIcon>
